@@ -4,7 +4,7 @@
 
 ## Table of Content 
 
-- [Description](#description)
+- [Project Description](#project-description)
 - [Data Source](#data-source)
 - [Tools Used](#tools-used)
 - [ETL Processing](#etl-processing)
@@ -56,12 +56,12 @@ In the initial data preparation process, the following process was performed
 
 #### Data Analysis Procedures:
 
-- Collected data through .csv files from MsExcel.
+- Collected data set from the ncdc website.
 - Uploading the data into PowerQuery for Cleaning and analysing the contents of the data
-- Requested for data clarification and data validity.
+- Ensured data clarification and data quality is maintained.
 - Loaded the data into PowerBi for visualization and Presentation.
 - Providing insights, presenting informations and advice.
-- Creating outstanding reports for end user understanding, board of directors and shareholders.
+- Creating outstanding reports for the government, researchers, individuals and public.
 
 #### Results and Findings
 
