@@ -58,6 +58,7 @@ In the initial data preparation process, the following process was performed
 
 - Collected data set from the ncdc website.
 - Uploading the data into PowerQuery for Cleaning and analysing the contents of the data
+- Performance of data transformation and changing the data types.
 - Ensured data clarification and data quality is maintained.
 - Loaded the data into PowerBi for visualization and Presentation.
 - Providing insights, presenting informations and advice.
