@@ -29,8 +29,8 @@ Covid-19 Data : The data sets used for the analysis includes;
 
 #### Tools Used 
 
-- Microsoft Excel: for easy access the contents of the file and understanding of the components of the data.
-    - [Download here](http://microsoft.com)
+- Power Querry: for data extraction from the website and transformation
+    - [Download here](http://ncdc.gov.ng)
 - Powerquerry: PowerQuerry was effective in carrying ETL processes on the data for data quality and organisation.
 - PowerBI: For visualization and creating reports
 
@@ -40,23 +40,20 @@ In the initial data preparation process, the following process was performed
 1. Data Extraction: Extracting data files (.csv files) from NCDC website into Powerquerry for cleaning and transformation
   [Download here](
 3. Transformation process taken place involves:
-   - Promote Header
+   - Promoted Header
+   - Checked the column quality and column Profiling
    - Removed null Values from the data
    - Removing empty rows and columns
    - Changing data types
-   - Creating new calculated column using DAX formula to calculate the toatla number of states affected.
+   - Creating new calculated column using DAX formula to calculate the total number of states affected.
 4. Loading process involves loading the completely transformed and cleaned data into PowerBI to build dashboard for reporting and visualizations.
  
 #### Recommended Analysis
 
-1. How does the overall flight volume vary by month? By day of week? 
-2. What percentage of flights in experienced a departure delay in 2015? Among 
-those flights, what was the average delay time, in minutes? 
-3. How does the % of delayed flights vary throughout the year? What about for 
-flights leaving from Boston (BOS) specifically? 
-4. How many flights were cancelled in 2015? What % of cancellations were due to 
-weather? What % were due to the Airline/Carrier? 
-5. Which airlines seem to be most and least reliable, in terms of on-time departure?
+1. Determine the total number of states affected by the pandemic. 
+2. Determine the total number of cases confirmed and recorded in each states.
+3. Determine the total number of death cases recorded and how many confirmed cases were successfully treated and discharged.
+4. Determine the percentage of total population affected in the country.
 
 #### Data Analysis Procedures:
 
@@ -70,21 +67,14 @@ weather? What % were due to the Airline/Carrier?
 #### Results and Findings
 
 The analysis results are summarized as follows;
-1. The total number of On-Time flights recorded during the period was 3.69millio(63.47%) while the delayed flight records 2.13million and Flight cancelled record was 89.88k
-2. The highest number of distance covered was July 2015 with a total of 520,718km, this distance was covered by southwest airline and the least distance covered was in February with 429,191km.
-3. There are four major reason for cancellation of flight out of which Weather condition has the highest cause with over 54% of the total percentage whereas security has no effect on the cancellation. This implies that security issues never created a threat to flight departure.
-4. The analysis also clearly shows that Southwest Airline Co. has the highest volume of flight engagement for the period.
-5. Among the days of tthe week, wednessday has the highest volume of flight departure, this could be as a result of the following:
- -  Mid-week vacation or relaxation
- -  Mid-week Flight Discount
- -  Schedule of meetng for organization staffs.
+1. The total number of states in Nigeria affected are 36 states and the total number of cases confirmed is **255,244**.
+2. The total number of cases on admission is **2616**.
+3. The total number of Deaths is **3142** and Discharged is **249,486**
 
 #### Recommendations
 Based on the analysis, I recommend the following actions:
- - Improvement of airport infrastructure and managements
+ - 
  - Ensure the reliability of on-Time departure with good experience
- - Implementing new technologies to optimize airport operations
- - Improving the level of communication between airlines and airport operations 
 
 #### Limitations
 
