@@ -71,16 +71,8 @@ The analysis results are summarized as follows;
 3. The total number of Deaths is **3142** and Discharged is **249,486**
 
 #### Recommendations
-Based on the analysis, I recommend the following actions that can help lower the rist of tranmission and contamination of the disease:
+Based on the analysis, I recommend the following actions that can help lower the risk of tranmission and contamination of the disease:
  - NCDC shoud encourage citizens to keep Wearing a mask and ensure enough distance is maintained.
  - When sneezing, citizens should ensure noses are covered with handkerchiefs.
  - Testing for COVID-19 can help you decide what to do next, and eliminatte any form of stigmatization in the hospitals which can cause poeple people from recieving treatment in due time.
  - Encourage people to receive treatment early inorder to reduce your risk of severe illness, aggravating health issues and taking steps to lower your chances of spreading COVID-19 to others.
-
-
- - Ensure the reliability of on-Time departure with good experience
-
-#### Limitations
-
-There was a difficulty in representing the insight from the data in periods, so, I had to create a Date table independently from the data and then built a relationship in the model table so as to present the report in a well organized periodic manner i.e Month reporting and Dayl)
-
